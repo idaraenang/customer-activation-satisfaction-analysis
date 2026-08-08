@@ -2,38 +2,51 @@
 
 ## Overview
 
-An Excel-based analysis of customer activation, activation speed, satisfaction, and transaction activity. The project uses PivotTables, calculated fields, charts, slicers, and an interactive dashboard to identify key customer and operational insights.
+An Excel-based customer analysis project focused on understanding customer activation, satisfaction, registration patterns, and transaction activity.
 
-## Objectives
-
-- Analyze customer activation rates
-- Evaluate activation speed and time to activation
-- Examine customer satisfaction
-- Compare customer activity across account types and states
-- Identify patterns and potential areas for operational improvement
-
-## Tools
-
-- Microsoft Excel
-- PivotTables
-- Charts
-- Slicers & Timeline
-- Calculated Fields
-- Dashboard
-
-## Key Insights
-
-- **199** customers were analyzed.
-- Overall activation rate was **75.88%**.
-- Average customer satisfaction was **2.83**.
-- Average time to activation was **7.79 days**.
-- One customer recorded a **45-day activation time**, representing a notable outlier.
-- Customer satisfaction varied across activation-speed groups.
+The project uses PivotTables, charts, KPI cards, and slicers to turn customer data into an interactive dashboard and useful business insights.
 
 ## Dashboard
 
-The interactive dashboard includes KPI cards, an activation status chart, customer satisfaction by activation speed, transaction value by account type, a state slicer, age-group slicer, and registration-date timeline.
+![Customer Analysis Dashboard](Dashboard pic.png)
 
-## Conclusion
+## What I Analyzed
 
-The project demonstrates how Excel can be used to transform customer data into an interactive dashboard that supports data-driven business analysis and operational decision-making.
+- Customer activation rate and activation status
+- Average days to activate an account
+- Customer satisfaction and activation speed
+- Customer registration by state
+- Customer registration by age group
+- Transaction value by account type
+- Potential activation outliers
+
+## Key Insights
+
+- 75.88% of customers were activated.
+- The average activation time was approximately 8 days.
+- One customer took 45 days to activate, which may represent a potential outlier.
+- Customer satisfaction appears relatively low and may be affected by factors such as activation speed, invalid transactions, and transaction reversals.
+- Lagos had the highest number of registered customers, with 83.
+- Kaduna had the lowest number of registered customers, with 7.
+- Customers aged 40–49 had the most registrations.
+- Savings accounts generated the highest monthly transaction value at 27,998,220.
+
+## Tools Used
+
+- Microsoft Excel
+- PivotTables
+- PivotCharts
+- Slicers
+- Excel formulas
+- Data visualization
+
+## Project Structure
+
+- `Raw Data` – Original customer dataset
+- `Pivot Tables` – Supporting analysis and calculations
+- `Dashboard` – Interactive dashboard
+- `Project Insights` – Key findings and areas for further investigation
+
+## Recommendations
+
+The analysis suggests investigating unusually long activation times, the relationship between activation issues and customer satisfaction, and the reasons behind lower customer registration in Kaduna.
