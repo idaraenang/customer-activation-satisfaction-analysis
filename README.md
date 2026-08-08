@@ -8,7 +8,7 @@ The project uses PivotTables, charts, KPI cards, and slicers to turn customer da
 
 ## Dashboard
 
-![Customer Analysis Dashboard](Dashboard pic.png)
+![Customer Analysis Dashboard](Dashboard%20pic.png)
 
 ## What I Analyzed
 
