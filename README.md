@@ -42,7 +42,7 @@ The project uses PivotTables, charts, KPI cards, and slicers to turn customer da
 
 ## Project Structure
 
-- `Raw Data` – Original customer dataset
+- `NovaPay_Onboarding` – Original customer dataset
 - `Pivot Tables` – Supporting analysis and calculations
 - `Dashboard` – Interactive dashboard
 - `Project Insights` – Key findings and areas for further investigation
